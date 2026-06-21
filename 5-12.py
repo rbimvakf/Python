@@ -10,7 +10,7 @@ def lottery(data):
 result = [lottery(numbers) for i in range(6)]
 result.sort()
 
-print("당첨번호: ", end="")
+print("당첨번호: ", end = "")
 
 for i in range(6):
-    print("%d " % result[i], end="")
+    print("%d " % result[i], end = "")
