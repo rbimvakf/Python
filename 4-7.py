@@ -1,8 +1,8 @@
-f = open("C:/Users/SHHERKY/Desktop/Magic.txt", 'r')
+f = open("Magic.txt", 'r')
 body = f.read()
 f.close()
 
 body = body.replace("java", "python")
-f = open("C:/Users/SHHERKY/Desktop/Magic.txt", 'w')
+f = open("Magic.txt", 'w')
 f.write(body)
 f.close()
