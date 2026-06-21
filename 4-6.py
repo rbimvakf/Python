@@ -1,5 +1,5 @@
 user_input = input("저장할 내용을 입력하세요:")
-f = open("C:/Users/SHHERKY/Desktop/Magic.txt", 'a')
+f = open("Magic.txt", 'a')
 f.write(user_input)
 f.write("\n")
 f.close()
